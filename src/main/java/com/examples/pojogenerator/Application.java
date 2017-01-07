@@ -98,6 +98,8 @@ public class Application {
 
     public static void main(String[] args) {
 
+        File inputCsv = new File("/Users/gokcerbelgusen/PojoGenerator/resources/sample.csv");
+        createPojoFromCsvHeader(inputCsv, "/Users/gokcerbelgusen/PojoGenerator/src/main/java", "com.examples.output", "Pojo");
     }
 
 }
